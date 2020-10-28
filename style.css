@@ -1,0 +1,50 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  background-color: lightyellow;
+}
+
+h1 {
+  font-style: bold;
+  color: #00000;
+}
+
+h2 {
+  color: #818286;
+  font_style: bold;
+}
+
+#kontakt {
+  font-style: bold;
+  color: black;
+}
+
+#kut {
+  border-radius: 25px;
+  border: 2px solid #00000;
+  padding: 0px;
+  width: 90px;
+  height: 55px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+.kontejner {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+  width: 20%;
+}

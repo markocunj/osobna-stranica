@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt stranica</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+<div class="kontejner">
+  
+    <label for="ime">Ime i prezime</label>
+    <input type="text" id="ime" name="firstname" placeholder="Vaše ime">
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Vaš e-mail">
+
+    <label for="poruka">Poruka</label>
+    <textarea id="poruka" name="poruka" placeholder="Napiši poruku.." style="height:200px"></textarea>
+
+    <a id="submit">
+      <button onclick="mojaFunkcija()" type="button" id="kut" >Submit</button>
+    </a>
+
+</div>
+  <script src="script.js" defer></script>
+  </body>
+</html>
